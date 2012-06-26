@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://rgLee.github.com/atom.xml" rel="self"/>
   <link href="http://rgLee.github.com/"/>
-  <updated>2012-06-26T23:21:00+08:00</updated>
+  <updated>2012-06-26T23:29:26+08:00</updated>
   <id>http://rgLee.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -18,15 +18,42 @@
     <link href="http://rgLee.github.com/blog/2012/06/26/how-to-install-octopress/"/>
     <updated>2012-06-26T22:33:00+08:00</updated>
     <id>http://rgLee.github.com/blog/2012/06/26/how-to-install-octopress</id>
-    <content type="html"><![CDATA[<h2>1.安裝Git</h2>
+    <content type="html"><![CDATA[<p>http://blog.zerosharp.com/setting-up-octopress-on-windows/</p>
+
+<h2>1.安裝Git</h2>
+
+<p>於Git Batch底下設定</p>
+
+<pre><code>$ git config--global user.name "你的名字"
+
+$git config --global user.email "你的email"
+</code></pre>
+
+<p>設定ssh，確定可以連到github</p>
+
+<pre><code>$ssh-keygne -C '你的email' -t rsa
+</code></pre>
+
+<p>參考
+* http://mzhou.me/?p=33001
+* http://simpleframework.net/blog/v/9358.html</p>
 
 <h2>2. 下載</h2>
 
-<h2>裝好了，然後呢？</h2>
+<p>裝好了，然後呢？
+當然是先寫篇圖文並茂的文章囉:P
+Windows下可以使用MarkDownPad</p>
+
+<p>*<a href="http://markdownpad.com/" title="MarkDownPad">http://markdownpad.com/</a></p>
 
 <pre><code>set LC_ALL=zh_TW.UTF-8
 set LANG=zh_TW.UTF-8
 </code></pre>
+
+<p>Code Sample
+<code>
+include
+</code></p>
 
 <p>想偷懶可以兩個指令合起來用:</p>
 

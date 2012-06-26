@@ -9,8 +9,7 @@
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="1.安裝Git 2. 下載 裝好了，然後呢？ set LC_ALL=zh_TW.UTF-8
-set LANG=zh_TW.UTF-8 想偷懶可以兩個指令合起來用: rake gen_deploy ">
+  <meta name="description" content="http://blog.zerosharp.com/setting-up-octopress-on-windows/ 1.安裝Git 於Git Batch底下設定 $ git config--global user.name "你的名字" $git config --global user. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -94,15 +93,42 @@ set LANG=zh_TW.UTF-8 想偷懶可以兩個指令合起來用: rake gen_deploy ">
   </header>
 
 
-  <div class="entry-content"><h2>1.安裝Git</h2>
+  <div class="entry-content"><p>http://blog.zerosharp.com/setting-up-octopress-on-windows/</p>
+
+<h2>1.安裝Git</h2>
+
+<p>於Git Batch底下設定</p>
+
+<pre><code>$ git config--global user.name "你的名字"
+
+$git config --global user.email "你的email"
+</code></pre>
+
+<p>設定ssh，確定可以連到github</p>
+
+<pre><code>$ssh-keygne -C '你的email' -t rsa
+</code></pre>
+
+<p>參考
+* http://mzhou.me/?p=33001
+* http://simpleframework.net/blog/v/9358.html</p>
 
 <h2>2. 下載</h2>
 
-<h2>裝好了，然後呢？</h2>
+<p>裝好了，然後呢？
+當然是先寫篇圖文並茂的文章囉:P
+Windows下可以使用MarkDownPad</p>
+
+<p>*<a href="http://markdownpad.com/" title="MarkDownPad">http://markdownpad.com/</a></p>
 
 <pre><code>set LC_ALL=zh_TW.UTF-8
 set LANG=zh_TW.UTF-8
 </code></pre>
+
+<p>Code Sample
+<code>
+include
+</code></p>
 
 <p>想偷懶可以兩個指令合起來用:</p>
 
